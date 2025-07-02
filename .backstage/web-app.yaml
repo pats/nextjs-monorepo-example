@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: web-app
+  annotations:
+    github.com/project-slug: pats/nextjs-monorepo-example
+  tags:
+    - website
+    - codesnoop
+spec:
+  type: website
+  lifecycle: production
+  system: nextjs-monorepo-example
