@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: nextjs-monorepo-example
+  description: null
+  annotations:
+    github.com/project-slug: pats/nextjs-monorepo-example
+  tags:
+    - codesnoop
+spec:
+  owner: pats
